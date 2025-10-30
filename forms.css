@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+.crouch{
+    width: 2055px;
+    height: 30px;
+    border:  solid;
+    border-color: rgb(69, 74, 74);
+    display :flex ;
+    justify-content: center;
+    padding: 8px 15px;
+}
+.nav-links{
+  display: flex;
+  gap: 200px;
+}
+.logo{
+    width: 10px;
+    height: 20px;
+    padding: 8px 15px;
+    background-color: darkgoldenrod;
+}
+.tomd{
+margin: auto;
+}
+.anexe{
+    position: absolute;
+    width: 285px;
+    height: 234px;
+    left: calc(50% - 285px/2 - 71.5px);
+    
+}
+.que{
+    height: 80vh;
+    background-image: url(fbacaa5fa52df90bea69f69f4646d328cb01fecf.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(2, 18, 33);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+.poco{
+    text-align: center;
+}
+.poo{
+   height: 80vh;
+    background-image: url(9276150be1a6a37dd656eb59783ba9186bbfceb1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(240, 243, 245);
+    background-size: 150%;
+    background-repeat: no-repeat;
+} 
+.tou{
+    text-align: center;
+}
+.gra{
+   height: 80vh;
+    background-image: url(e50a20d4906b863cd7957ea9dc09d7565d3d1eda\ \(1\).jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    color: rgb(240, 243, 245);
+    background-size: 150%;
+    background-repeat: no-repeat; 
+    
+}
+
+    
+
+
+
+
+
+
+
