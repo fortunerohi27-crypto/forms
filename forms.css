@@ -1,36 +1,40 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
 
-.crouch{
+.crouch {
     width: 2055px;
     height: 30px;
-    border:  solid;
+    border: solid;
     border-color: rgb(69, 74, 74);
-    display :flex ;
+    display: flex;
     justify-content: center;
     padding: 8px 15px;
 }
-.nav-links{
-  display: flex;
-  gap: 200px;
+
+.nav-links {
+    display: flex;
+    gap: 200px;
 }
-.logo{
+
+.logo {
     width: 10px;
     height: 20px;
     padding: 8px 15px;
     background-color: darkgoldenrod;
 }
-.tomd{
-margin: auto;
+
+.tomd {
+    margin: auto;
 }
-.anexe{
+
+.anexe {
     position: absolute;
     width: 285px;
     height: 234px;
     left: calc(50% - 285px/2 - 71.5px);
-    
+
 }
-.que{
+
+.que {
     height: 80vh;
     background-image: url(fbacaa5fa52df90bea69f69f4646d328cb01fecf.jpg);
     display: flex;
@@ -41,11 +45,13 @@ margin: auto;
     background-size: 150%;
     background-repeat: no-repeat;
 }
-.poco{
+
+.poco {
     text-align: center;
 }
-.poo{
-   height: 80vh;
+
+.poo {
+    height: 80vh;
     background-image: url(9276150be1a6a37dd656eb59783ba9186bbfceb1.jpg);
     display: flex;
     align-items: center;
@@ -54,12 +60,14 @@ margin: auto;
     color: rgb(240, 243, 245);
     background-size: 150%;
     background-repeat: no-repeat;
-} 
-.tou{
+}
+
+.tou {
     text-align: center;
 }
-.gra{
-   height: 80vh;
+
+.gra {
+    height: 80vh;
     background-image: url(e50a20d4906b863cd7957ea9dc09d7565d3d1eda\ \(1\).jpg);
     display: flex;
     align-items: center;
@@ -67,15 +75,36 @@ margin: auto;
     text-align: end;
     color: rgb(240, 243, 245);
     background-size: 150%;
-    background-repeat: no-repeat; 
-    
+    background-repeat: no-repeat;
+
 }
 
+
     
 
-
-
-
-
-
+.hop{
+    display: flex;
+    justify-content: center;
+    align-items: flex start;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.hop img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    display: flex;
+}
+.hop .text{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    color: rgb(234, 226, 226);
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black; 
+}
 
