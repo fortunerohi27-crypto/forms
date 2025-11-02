@@ -104,5 +104,58 @@
     background-color: rgb(128, 134, 145);
     padding: auto;
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9d5; /* light yellow */
+  padding: 40px;
+  border-top: 1px solid #000;
+}
+
+.footer-left h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center ul li {
+  margin: 10px 0;
+}
+
+.footer-center a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.footer-right {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.footer-right h3 {
+  margin-bottom: 15px;
+}
+
+.footer-right label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer-right input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
 
 
